@@ -268,8 +268,7 @@ def update(id):
         return redirect(url_for('Index'))
     return render_template('index.html', entry=entry)
 
-
-
+bilal
 
 
 
