@@ -272,6 +272,8 @@ def update(id):
 
 
 
+
+
 @app.route('/delete/<int:id>')
 def delete(id):
     entry = CallAgent.query.get_or_404(id)
